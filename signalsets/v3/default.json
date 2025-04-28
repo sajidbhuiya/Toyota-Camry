@@ -22,5 +22,11 @@
     {"id": "CAMRY_TIRE_RR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
     {"id": "CAMRY_TIRE_RL_SPD", "path": "Movement", "fmt": {"bix": 24, "len": 8, "max": 326.4, "mul": 256, "div": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]}
+      {
+      "hdr": "7C0", "rax": "7C8", "cmd": { "21": "29" }, "freq": 1,
+      "signals": [
+        {"id": "CAMRY_FLV", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"}
+      ]}
+
 ]
 }
