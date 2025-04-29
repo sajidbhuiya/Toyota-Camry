@@ -15,6 +15,12 @@
         {"id": "CAMRY_TF2_CONV", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Post-Converter Temperature"}
       ]
     },
+    { "hdr": "701", "rax": "709", "dbg": true, "cmd": {"21": "82"}, "freq": 1,
+      "signals": [
+        {"id": "CAMRY_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Pan Temperature"},
+        {"id": "CAMRY_TF2_CONV", "path": "Engine", "fmt": { "bix": 16, "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission Fluid Post-Converter Temperature"}
+      ]
+    },
     { "hdr": "750", "eax": "2A", "tst": "2A", "tmo": "96", "fcm1": true, "dbg": true, "cmd": {"21": "16"}, "freq": 5,
       "signals": [
         {"id": "CAMRY_TT_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Front left tire temperature"},
